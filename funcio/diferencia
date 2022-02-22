@@ -1,0 +1,7 @@
+<?php
+function difference($a, $b) { // function definition with arguments
+$c = $a - $b;
+return $c;
+}
+echo "The difference of the given numbers is: ".difference(8, 3);
+?>
