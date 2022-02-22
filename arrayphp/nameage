@@ -1,0 +1,7 @@
+<?php
+$namesAge = array("Fabio"=>"20", "Klevi"=>"16", "John"=>"43");
+foreach($namesAge as $i => $value) {
+echo "Key = " . $i . ", Value = " . $value;
+echo "\n";
+}
+?
