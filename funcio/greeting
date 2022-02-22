@@ -1,0 +1,7 @@
+<?php
+function greetPerson($name) { // function definition with arguments
+echo "Hi there, ".$name; // what this function does
+}
+greetPerson("Fabio\n"); // function call
+greetPerson("Michael");
+?>
