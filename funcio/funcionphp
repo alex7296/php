@@ -1,0 +1,6 @@
+<?php
+function showGreeting() { // function definition
+echo "Hello Chloe!"; // what this function does
+}
+showGreeting(); // function call
+?>
