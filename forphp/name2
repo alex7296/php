@@ -1,0 +1,8 @@
+<?php
+$names = array("Fabio", "Klevi", "John");
+$arrayLength = count($names);
+for($i = 0; $i < $arrayLength; $i++) {
+echo $names[$i];
+echo "\n";
+}
+?>
