@@ -1,0 +1,8 @@
+<?php
+$ciudad[] = "París";
+$ciudad[] = "México";
+$ciudad[] = "Roma";
+$ciudad[] = "Sevilla";
+$ciudad[] = "Londres";
+print ("yo vivo en " . $ciudad[1] . "<BR>\n");
+?>
