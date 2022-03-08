@@ -1,0 +1,11 @@
+<?php
+$var = 1;
+echo "Welcome!&lt;br /&gt;";
+echo "How are you today?&lt;br /&gt;";
+echo "The answer: ";
+if ($var == 1) {
+echo "Good";
+} else {
+echo "Bad";
+}
+?>
