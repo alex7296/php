@@ -1,0 +1,9 @@
+<?php
+$visitas = array("lunes"=>200, "martes"=>186,
+"miércoles"=>190, "jueves"=>175);
+reset($visitas);
+while (list($clave, $valor) = each($visitas))
+{
+echo "el día $clave ha tenido $valor visitas<BR>";
+}
+?>
