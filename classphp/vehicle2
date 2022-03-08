@@ -1,0 +1,21 @@
+<?php
+class Vehicle {
+var $brand; // just a declared undefined variable
+var $speed = 80; // a declared and defined variable
+function setSpeed($speedValue) { // a function to change speed
+$this->speed = $speedValue; // this will replace speed with our value
+}
+function setBrand($brandName) { // a function to change brand
+$this->brand = $brandName; // this will set a brand name
+}
+function printDetails(){ // a function to print details
+echo "Vehicle brand is: ".$this->brand;
+echo "";
+echo "Vehicle speed is: ".$this->speed;
+}
+}
+$myCar = new Vehicle; // an instance of our Vehicle class (an object)
+$myCar->setBrand("Audi"); // calling the function setBrand to define a brand
+$myCar->setSpeed(120); // calling the function setSpeed to change speed
+$myCar->printDetails(); // calling the printDetails function to see details
+?>
