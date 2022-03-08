@@ -1,0 +1,5 @@
+<?php
+$string = "This\ntext\nbreaks\nlines.";
+$string = nl2br($string);
+print $string;
+?>
