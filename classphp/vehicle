@@ -1,0 +1,20 @@
+<?php
+class Vehicle {
+function __construct ($brandName, $speedValue) {
+$this->brand = $brandName; // initialize brand
+$this->speed = $speedValue; // initialize speed
+}
+function printDetails(){
+echo "Vehicle brand is: ".$this->brand;
+echo "
+";
+echo "Vehicle speed is: ".$this->speed;
+echo "
+";
+}
+}
+$car1 = new Vehicle("Toyota", 130);
+$car2 = new Vehicle ("Ferrari", 450);
+$car1->printDetails();
+$car2->printDetails();
+?>
