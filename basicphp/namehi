@@ -1,0 +1,6 @@
+<?php
+	$name= "Guido";
+echo "Hi, $name\"";
+echo 'Hi, $name';
+
+?>
