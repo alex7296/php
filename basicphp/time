@@ -1,0 +1,8 @@
+<?php
+$timestamp = time();
+$date = date("d-m-Y", $timestamp);
+$datetime = date("d-m-Y h:i:s", $timestamp);
+echo "Unix timestamp: $timestamp <br>";
+echo "Human-readable date: $date <br>";
+echo "Human-readable datetime: $datetime";
+?>
