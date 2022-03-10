@@ -1,0 +1,8 @@
+<?php
+$ukDate = "13-05-201"; // For UK format, ’-’ must be the separator.
+$usDate = "05/13/2016"; // For US format, ’/’ must be the separator.
+$ukTimestamp = strtotime($ukDate);
+$usTimestamp = strtotime($usDate);
+echo "Timestamp created from UK date format: $ukTimestamp <br>";
+echo "Timestamp created from US date format: $usTimestamp";
+?>
