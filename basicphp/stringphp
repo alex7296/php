@@ -1,0 +1,6 @@
+<?php
+          //replace space with underscore
+          $s="a string";
+           $s[1]="….";
+           print($s);
+?>
