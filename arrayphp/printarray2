@@ -1,0 +1,17 @@
+<?php
+$array['name'] = "Toyota";
+$array['type'] = "Celica";
+$array['colour'] = "black";
+$array['manufactured'] = "1991";
+$array2[] = "Toyota";
+$array2[] = "Celica";
+$array2[] = "black";
+$array2[] = "1991";
+$array3['name'] = "Toyota";
+$array3[] = "Celica";
+$array3['colour'] = "black";
+$array3[] = "1991";
+print_r($array);
+print_r($array2);
+print_r($array3);
+?>
