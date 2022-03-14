@@ -1,0 +1,8 @@
+<?php
+$array = array("name"=>"Toyota","type"=>"Celica","colour"=>"black","manufactured"=>"1991");
+$array2 = array("Toyota","Celica","black","1991");
+$array3 = array("name"=>"Toyota","Celica","colour"=>"black","1991");
+print_r($array);
+print_r($array2);
+print_r($array3);
+?>
