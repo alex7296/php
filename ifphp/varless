@@ -1,0 +1,13 @@
+<?php
+$foo = 1;
+$bar = 2;
+if ($foo == $bar) {
+  echo "$foo is equal to $bar.";
+} 
+elseif ($foo > $bar) {
+  echo "$foo is greater than $bar.";
+}
+else {
+  echo "$foo is less than $bar.";
+}
+?>
