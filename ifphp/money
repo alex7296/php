@@ -1,0 +1,4 @@
+<?php
+$money = 535; # $
+print 'I have' . ($money > 500 ? '' : 'n’t') . ' enough money.';
+?>
