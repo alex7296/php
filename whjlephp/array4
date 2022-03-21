@@ -1,0 +1,9 @@
+<?php
+// Using an array's iterator to print its values in reverse order
+$my_array = array('a', 'b', 'c');
+end($my_array);
+while ($i = current($my_array)) {
+    echo $i."\n";
+    prev($my_array);
+}
+?>
