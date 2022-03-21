@@ -1,0 +1,8 @@
+<?php
+      $s=”leon”;
+      $t=&$s;
+      $t.=”Atkinson”;
+
+print("$s<BR<\n");
+print("$t<BR>\n");
+?>
