@@ -1,0 +1,13 @@
+<’php
+$person=array(“edison”,”wankel”.”Crapper”);
+$creator=array(“Light bul” => “edison”,
+                         “rotary engine” => “wankel”,
+                         “toilet”            =>”crapper”);
+
+Foreach($person as $name){
+    Echo “hello, $name\n”;
+}
+Foreach ($creator as $invention=> $inventor){
+    Echo “$inventor creatd the $invention\n”;
+}
+?>
