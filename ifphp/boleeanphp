@@ -1,0 +1,9 @@
+<?php
+$a = true;
+$b = false;
+if($a && $b) {
+echo '$a y $b son los dos verdaderos';
+} else {
+echo 'o uno de $a o $b son falsos, o los dos son falsos';
+}
+?>
