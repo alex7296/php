@@ -1,0 +1,16 @@
+<?php
+//set variables
+$var_name = "myValue";
+$myValue = 123.456;
+$array_name = "myArray";
+$myArray = array(1,2,3);
+//prints "123.456"
+print($$var_name . "<BR>\n");
+//prints "$myValue"
+//perhaps not what you expect
+print("$$var_name<BR>\n");
+//prints "123.456"
+print("${$var_name}<BR>\n");
+//prints "3"
+print(${$array_name}[2] . "<BR>\n");
+?>
