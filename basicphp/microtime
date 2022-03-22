@@ -1,0 +1,8 @@
+<?php
+$microtime = microtime();
+list($microseconds, $seconds) = explode(" ", $microtime);
+$microseconds = str_replace("0.", " ", $microseconds);
+$datetime = date("d-m-Y h:i:s");
+$datetime .= ":" . $microseconds;
+echo "Current datetime with microseconds: $datetime";
+?>
