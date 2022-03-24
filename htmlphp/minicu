@@ -1,0 +1,38 @@
+minicu.htm
+<HTML><HEAD></HEAD><BODY><B>Minicurriculum </B>
+<FORM METHOD=POST ACTION="minicu.php">
+Nombres:
+<INPUT NAME="nombres" TYPE="Text">
+Apellidos:
+<INPUT NAME="apellidos" TYPE="Text">
+Edad:
+<INPUT NAME="edad" TYPE="Text"SIZE="3">
+<BR>
+<BR>
+Domicilio:
+<TEXTAREA NAME="Domicilio" ROWS=4 COLS=40>
+</TEXTAREA>
+<BR>
+<BR>
+Que salario deseas ganar?
+<SELECT NAME="Salario">
+<OPTION VALUE=0> Menos de $1000</OPTION>
+<OPTION VALUE=1000>Entre $1,000 y $3,000</OPTION>
+<OPTION VALUE=3000>Entre $3,000 y $5,000</OPTION>
+<OPTION VALUE=5000>mas de $5,000</OPTION>
+</SELECT>
+<BR>
+<BR>
+Como consideras tu desempeño?<BR><BR>
+<INPUT NAME="Desempe" TYPE="Radio" VALUE=0>Pesimo
+<BR>
+<INPUT NAME="Desempe" TYPE="Radio" VALUE=5>Regular
+<BR>
+<INPUT NAME="Desempe" TYPE="Radio" VALUE=10>Excelente
+<BR>
+<BR>
+<INPUT TYPE=SUBMIT VALUE="Presione cuando este listo(a)">
+<INPUT TYPE=RESET VALUE="Borra todo">
+</FORM>
+</BODY>
+</HTML>
