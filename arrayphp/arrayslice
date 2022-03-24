@@ -1,0 +1,14 @@
+<?php
+$entrada = array ("Miguel", "Pepe", "Juan", "Julio", "Pablo");
+//modifico el tamaño
+$salida = array_slice ($entrada, 0, 3);
+//muestro el array
+foreach ($salida as $actual)
+echo $actual . "<br>";
+echo "<p>";
+//modifico otra vez
+$salida = array_slice ($salida, 1);
+//muestro el array
+foreach ($salida as $actual)
+echo $actual . "<br>";
+?>
