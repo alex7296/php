@@ -1,0 +1,39 @@
+<?
+/*
+** Get today's weekday name
+*/
+$english_Day = date("l");
+/*
+** Find the today's German name
+*/
+switch($english_Day)
+{
+case "Monday":
+$deutsch_Day = "Montag";
+break;
+case "Tuesday":
+$deutsch_Day = "Dienstag";
+break;
+case "Wednesday":
+$deutsch_Day = "Mittwoch";
+break;
+case "Thursday":
+$deutsch_Day = "Donnerstag";
+break;
+case "Friday":
+$deutsch_Day = "Freitag";
+break;
+case "Saturday":
+$deutsch_Day = "Samstag";
+break;
+default:
+// It must be Sunday
+$deutsch_Day = "Sonntag";
+}
+/*
+** Print today's English and German names
+*/
+print("<H2>German Lesson: Day of the Week</H2>\n");
+print("In English: <B>$english_Day</B>.<BR>\n");
+print("In German: <B>$deutsch_Day.</B><BR>\n");
+?>
