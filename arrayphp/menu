@@ -1,0 +1,10 @@
+$menu = array("Toast and jam", "Bacon and eggs", "Homefries", "Skillet", "Milk and cereal");
+// Note to self: get breakfast after writing this article
+$count = count($menu);
+for ($i = 0; $i < $count; $i++) {
+echo ($i + 1 . ". " . $menu[$i] . "&lt;br /&gt;");
+}
+for ($i = 0; $i < $count; $i++) {
+$j = $i + 1;
+echo "$j. {$menu[$i]}&lt;br /&gt;";
+}
