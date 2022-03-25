@@ -1,0 +1,6 @@
+<?php
+$array = array("1st" => "My House", "2nd" => "My Car", "3rd" => "My Lab");
+foreach ($array as $key => $someVar) {
+echo $key . ": " . $someVar . "<br />\n";
+}
+?>
