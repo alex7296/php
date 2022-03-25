@@ -1,0 +1,14 @@
+$array = array(
+"1st" => "My House",
+"2nd" => "My Car",
+"3rd" => "My Lab"
+);
+// get all the array keys
+$arrayKeys = array_keys($array);
+// get amount of values from array
+$count = count($array);
+// loop through the keys
+for ($i = 0; $i < $count; $i++) {
+// get each array value using its key
+echo $array[($arrayKeys[$i])] . "<br />";
+}
