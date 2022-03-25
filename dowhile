@@ -1,0 +1,24 @@
+<?php
+/*
+** get the current date in number of seconds
+*/
+$currentDate = time();
+/*
+** print some text explaining the output
+*/
+print("Days left before next Friday:\n");
+print("<OL>\n");
+do
+{
+/*
+** print day name
+*/
+print("<LI>" . date("l", $currentDate) . "\n");
+/*
+** add 24 hours to currentDate
+*/
+$currentDate += (60 * 60 * 24);
+}
+while(date("l", $currentDate) != "Friday");
+print("</OL>\n");
+?>
