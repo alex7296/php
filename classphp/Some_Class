@@ -1,0 +1,15 @@
+class Some_Class {
+function my_function($text1, $text2, $text3) {
+$return = $text1 . "\n\n" . $text2 . "\n\n" . $text3;
+return $return;
+}
+}
+$my_class = new Some_Class();
+
+$one = "One";
+$two = "Two";
+$three = "Three";
+$callback_func = array(&$my_class, "my_function");
+$result = call_user_func($callback_func, $one, $two, $three);
+echo $result;
+
