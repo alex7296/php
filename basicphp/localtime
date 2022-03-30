@@ -1,0 +1,4 @@
+# using Time::tm objects
+use Time::localtime;
+$tm = localtime;
+print "Today is day ", $tm->yday, " of the current year.\n";
