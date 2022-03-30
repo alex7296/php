@@ -1,0 +1,10 @@
+<?
+function printColored($Text, $Color="black")
+{
+print("<FONT COLOR=\"$Color\">$Text</FONT>");
+}
+printColored("This is black text");
+print("<BR>\n");
+printColored("This is blue text", "blue");
+print("<BR>\n");
+?>
