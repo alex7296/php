@@ -1,0 +1,8 @@
+function print_two_strings($var1, $var2) {
+echo $var1;
+echo "\n";
+echo $var2;
+return NULL;
+}
+
+print_two_strings("Hello", "World");
