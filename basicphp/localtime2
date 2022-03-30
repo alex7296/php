@@ -1,0 +1,2 @@
+($day, $month, $year) = (localtime)[3,4,5];
+printf("The current date is %04d %02d %02d\n", $year+1900, $month+1, $day);
