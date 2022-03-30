@@ -1,0 +1,12 @@
+<?
+function makeList()
+{
+print("<OL>\n");
+for($i=0; $i <func_num_args(); $i++)
+{
+print("<LI>" . func_get_arg($i) . "\n");
+}
+print("</OL>\n");
+}
+makeList("PHP", "MySQL", "Apache");
+?>
