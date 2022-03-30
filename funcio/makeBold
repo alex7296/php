@@ -1,0 +1,12 @@
+<?
+function makeBold($inputText)
+{
+$boldedText = "<B>";
+$boldedText .= $inputText;
+$boldedText .= "</B>";
+return($boldedText);
+}
+print("This Line is not Bold<BR>\n);
+print(makeBold("This Line is Bold") . "<BR>\n");
+print("This Line is not Bold<BR>\n");
+?>
