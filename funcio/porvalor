@@ -1,0 +1,9 @@
+<?php
+	function porvalor ($parametro1){
+$parametro1="hola";
+echo "<br>" . $parametro1; //imprime "hola"
+}
+$mivariable = "esto no cambia";
+porvalor ($mivariable);
+echo "<br>" . $mivariable; //imprime "esto no cambia"
+?>
