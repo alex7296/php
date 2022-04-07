@@ -1,0 +1,12 @@
+<?php
+$cadena = "hola a todo el mundo";
+//recorro la cadena hasta encontrar una "m"
+$i=0;
+while ($cadena[$i]!="m" && $i< strlen($cadena)){
+$i++;
+}
+if ($i==strlen($cadena))
+echo "No se encuentra...";
+else
+echo "Está en la posición $i";
+?>
