@@ -1,0 +1,8 @@
+<?php
+$size=1;
+While ($size<=6)
+{
+echo"<font size=$size>Tamaño $size</font><br>n";
+$size++;
+}
+?>
