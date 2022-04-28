@@ -1,0 +1,17 @@
+<?php
+class dog
+{
+var $name="none";
+var $sound="woof!";
+function speak()
+{
+print($this->sound);
+}
+}
+$gus = new dog;
+$gus->name = "Gus";
+foreach(get_class_methods("dog") as $method)
+{
+print("$method<BR>\n");
+}
+?>
