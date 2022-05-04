@@ -1,0 +1,7 @@
+<?php
+$Temperature = 15.23;
+if(is_double($Temperature))
+{
+print("Temperature is a double");
+}
+?>
